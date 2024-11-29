@@ -8,7 +8,7 @@ display_width = 576
 display_height = 600
 gameDisplay = pygame.display.set_mode((display_width, display_height))
 pygame.display.set_caption('flappy bird')
-game_font = pygame.font.Font('04B_19.ttf', 40)
+game_font = pygame.font.Font('04B_19.TTF', 40)
 clock = pygame.time.Clock()
 crashed = False
 
