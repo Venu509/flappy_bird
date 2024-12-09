@@ -23,7 +23,7 @@ def floorSetting():
     floorImg = pygame.image.load('assets/base.png').convert()
     floorImg = pygame.transform.scale2x(floorImg)
     gameDisplay.blit(floorImg, (floor_x_pos, 500))
-    gameDisplay.blit(floorImg, (floor_x_pos + display_width, 500))
+    gameDisplay.blit(floorImg, (floor_x_pos + display_wnnnknkn 500))
 floor_x_pos = 0
 
 #bird_surface = pygame.image.load('assets/bluebird-midflap.png').convert_alpha()
